@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/multicluster-controlplane/multicluster-controlplane@sha256:f920010c9ebe61e3ad1b145bde9e3d0f61345c4a1eba0e04f1a2521f5e7373c1
+      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/multicluster-controlplane/multicluster-controlplane@sha256:1074991ee6a449162d1b5252a686e83a680c808d9c5d3e13f29bdc7ad09b3a19
         name: container-image
         resources: {}
 status: {}

@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: multicluster-controlplane
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/multicluster-controlplane/multicluster-controlplane@sha256:ddb419f7190d6af28d6b3ea4baee38d9c9a1c1995db902b50cd060bd23d29ba3
+      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/multicluster-controlplane/multicluster-controlplane@sha256:f920010c9ebe61e3ad1b145bde9e3d0f61345c4a1eba0e04f1a2521f5e7373c1
         imagePullPolicy: Always
         name: container-image
         ports:

@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: multicluster-controlplane
     app.kubernetes.io/part-of: multicluster-controlplane
-  name: multicluster-controlplanewdl1
+  name: multicluster-controlplaneit5k
 spec:
   port:
     targetPort: 8080

@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: multicluster-controlplane
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/multicluster-controlplane/multicluster-controlplane@sha256:f920010c9ebe61e3ad1b145bde9e3d0f61345c4a1eba0e04f1a2521f5e7373c1
+      - image: quay.io/redhat-user-workloads/red-hat-acm-tenant/multicluster-controlplane/multicluster-controlplane@sha256:352ac2e21f64abd923908df9d62250558bb21d3d0c2099928663e921a26ce57a
         name: container-image
         resources: {}
 status: {}
